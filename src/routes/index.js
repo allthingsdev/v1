@@ -1,10 +1,10 @@
 import express from 'express';
-import { dbconn } from '../settings.js';
+import { db } from '../settings.js';
 
 const indexRouter = express.Router();
 
 indexRouter.get('/', (req, res) =>
-  res.status(200).json({ message: dbconn })
+  res.status(200).json({ message: db })
 );
 
 export default indexRouter;

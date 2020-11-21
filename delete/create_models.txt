@@ -1,0 +1,18 @@
+sequelize model:create --name Category --attributes cat_id:uuid,cat_name:string,cat_desc:string
+
+sequelize model:create --name Item --attributes item_id:uuid,item_name:string,uom:uuid,category:uuid
+
+sequelize model:create --name Uom --attributes uom_id:uuid,uom_name:string,uom_abbr:string
+
+sequelize model:create --name PaymentMode --attributes mode_id:uuid,mode_name:string
+
+sequelize model:create --name Place --attributes place_id:uuid,place_name:string,place_desc:string
+
+sequelize model:create --name User --attributes user_id:uuid,user_name:string
+
+sequelize model:create --name TransactionType --attributes type_id:uuid,type_name:string
+
+sequelize model:create --name Transaction --attributes trans_id:uuid,trans_type:uuid,item:uuid,quantity:integer,uom:uuid,unit_price:integer,total_price:integer,mode:uuid,place:uuid,for:uuid,notes:string
+
+
+

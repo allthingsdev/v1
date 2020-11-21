@@ -1,0 +1,23 @@
+{
+    "development": {
+        "username": "learn",
+        "password": "123",
+        "database": "learndev",
+        "host": "9.9.9.8",
+        "dialect": "postgres"
+    },
+    "test": {
+        "username": "learn",
+        "password": "123",
+        "database": "learntest",
+        "host": "9.9.9.8",
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "learn",
+        "password": "123",
+        "database": "learn",
+        "host": "9.9.9.8",
+        "dialect": "postgres"
+    }
+}
