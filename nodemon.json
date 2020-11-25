@@ -8,8 +8,5 @@
         "src/"
     ],
     "verbose": true,
-    "ignore": [
-        "*.test.js",
-        "*.spec.js"
-    ]
+    "ignore": ["*.test.js", "*.spec.js"]
 }
